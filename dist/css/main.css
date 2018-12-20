@@ -3,5 +3,45 @@
   outline: none; }
 
 body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden; }
+
+.wrap {
+  width: 100%;
+  height: auto;
+  background-color: peachpuff;
+  display: flex;
+  position: relative; }
+
+.wrapp-button {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  width: 60px;
+  height: 30px;
+  background-color: gray; }
+
+.menu {
+  display: flex;
+  position: relative;
+  width: 20vw;
   height: 100vh;
-  font-family: 'Open Sans', sans-serif; }
+  background-color: pink;
+  z-index: 99;
+  left: -999px; }
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none; }
+
+.menu__button {
+  position: absolute;
+  right: 20px;
+  top: 5px; }
+
+.hidden-menu {
+  position: relative;
+  z-index: 99;
+  left: 0; }
