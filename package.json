@@ -1,0 +1,21 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "UNIVERSAL_TEMPLATE is very simple frontend template. It contains:",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gilp": "^0.0.7",
+    "gulp-scss": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "f"
+  },
+  "author": "stovski",
+  "license": "ISC"
+}

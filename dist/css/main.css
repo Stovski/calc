@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+  outline: none; }
+
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif; }
